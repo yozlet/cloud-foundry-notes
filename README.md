@@ -1,4 +1,4 @@
-## 18F CF Docs
+## 18F CF Docs [![Build Status](https://travis-ci.org/18F/cloud-foundry-notes.svg?branch=master)](https://travis-ci.org/18F/cloud-foundry-notes)
 
 This repository contains the site code for the
 18f Cloud Foundry documentation site.
