@@ -1,4 +1,4 @@
-## 18F CF Docs [![Build Status](https://travis-ci.org/18F/cloud-foundry-notes.svg?branch=master)](https://travis-ci.org/18F/cloud-foundry-notes)
+## 18F CF Docs [![wercker status](https://app.wercker.com/status/b53005d7e69162205a5c9b63f3d65029/s/master "wercker status")](https://app.wercker.com/project/bykey/b53005d7e69162205a5c9b63f3d65029)
 
 This repository contains the site code for the
 18f Cloud Foundry documentation site.

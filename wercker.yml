@@ -4,10 +4,14 @@ services:
 steps:
   - dlapiduz/cloud-foundry-deploy
   - arjen/hugo-build
+  - kyleboyle/html-proofer-test
 build:
   steps:
     - arjen/hugo-build:
         version: 0.13
+    - kyleboyle/html-proofer-test:
+        version: "2.1.0"
+        basedir: public
 deploy:
   steps:
     - dlapiduz/cloud-foundry-deploy:
