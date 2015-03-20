@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+- 2.2.0
+cache:
+- apt
+- bundler
+before_install:
+- sudo apt-get update -qq
+- sudo apt-get install -qq hugo
