@@ -2,8 +2,9 @@ language: ruby
 rvm:
 - 2.2.0
 cache:
-- apt
 - bundler
 before_install:
-- sudo apt-get update -qq
-- sudo apt-get install -qq hugo
+# http://exponential.io/blog/2015/02/25/install-hugo-on-ubuntu-linux/
+- wget https://github.com/spf13/hugo/releases/download/v0.13/hugo_0.13_linux_amd64.tar.gz
+- gzip -dc hugo_0.13_linux_amd64.tar.gz | tar xf -
+- export PATH=.:$PATH
