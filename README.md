@@ -1,6 +1,6 @@
 ## 18F CF Docs
 
-This repository contains the site code for the 
+This repository contains the site code for the
 18f Cloud Foundry documentation site.
 
 ### Running the site locally
@@ -11,9 +11,10 @@ Once hugo is installed just run `hugo server -w` and browse to [http://localhost
 
 ### Contributing
 
-Hugo uses markdown to build the pages. Just add your page to the section you want inside the 
+Hugo uses markdown to build the pages. Just add your page to the section you want inside the
 content folder.
 
+To validate links, run `bundle && bundle exec rake`. Requires Ruby 1.9+.
 
 ### Acknowledgement
 
