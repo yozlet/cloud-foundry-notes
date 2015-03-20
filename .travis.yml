@@ -4,7 +4,5 @@ rvm:
 cache:
 - bundler
 before_install:
-# http://exponential.io/blog/2015/02/25/install-hugo-on-ubuntu-linux/
-- wget https://github.com/spf13/hugo/releases/download/v0.13/hugo_0.13_linux_amd64.tar.gz
-- gzip -dc hugo_0.13_linux_amd64.tar.gz | tar xf -
-- export PATH=.:$PATH
+- wget https://github.com/spf13/hugo/releases/download/v0.13/hugo_0.13_amd64.deb
+- sudo dpkg -i hugo_0.13_amd64.deb
